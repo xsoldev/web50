@@ -1,0 +1,74 @@
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Advance Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="top_links">
+            <a href="index.html">  Search</a>
+
+        </div>
+        <h2 style="color: red">Advanced Search</h2>
+
+        <hr/>
+        <h4> Find pages with..</h4>
+        
+            <form class="advance_search" action="https://www.google.com/search">
+                <div id="grid">
+
+                    <div class="grid_item">
+                        <label id="item_label" for="as_q"> All these words</label>                      
+                    </div>
+                    <div class="grid_item">
+                        <input id="search_bar2" type="text" name="as_q">
+                    </div>
+
+
+                    <div class="grid_item">
+                        <label for="as_epq"> This exact word or phrase</label>                   
+                    </div>
+                    <div class="grid_item">
+                        <input id="search_bar2" type="text" name="as_epq">
+                    </div>
+
+
+                    <div class="grid_item">
+                        <label for="as_oq">Any of these words</label> 
+                    </div>
+                    <div class="grid_item">
+                        <input id="search_bar2" type="text" name="as_oq">
+                    </div>
+
+
+                    <div class="grid_item">
+                        <label for="as_eq"> None of these words</label>
+                    </div>
+                    <div class="grid_item">
+                        <input id="search_bar2"type="text" name="as_eq">
+                    </div>
+                    <div class="grid_item"></div>
+                    <div class="grid_item" >
+                        <input id="search_button2" type="submit" value="Advance Search">
+                    </div>
+                    
+
+
+            </div>
+                
+                
+                
+            </form>
+        
+       
+    </body>
+</html>
+
+<!-- 
+    as_q = all these words fire hydrant ..all these words.. adavanced search query or the 
+    as_epq = this exact word of phrasefire hydrant hit by a car, exact words
+    as_oq= any of these words fire hydrant accident
+    as_eq = none  of these words fire men 
+
+ -->
